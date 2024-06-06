@@ -1,0 +1,7 @@
+/* Override a tag's presets by entering its name */
+body {
+    background-color: orange;
+}
+p {
+    color: red;
+}
