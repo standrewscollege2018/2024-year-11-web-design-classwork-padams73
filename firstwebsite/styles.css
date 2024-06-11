@@ -1,7 +1,52 @@
+@font-face {
+    /* font-family is what we are naming the font (like a variable name) */
+    font-family: Patrick;
+    /* src is the location of the font */
+    src: url(fonts/PatrickTonight.otf);
+}
+/* The universal selector changes all tags */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Override a tag's presets by entering its name */
 body {
-    background-color: orange;
+    background-color: rgb(12,34,56);
+    font-family: Verdana, Calibri, Trebuchet;
+    color: white;
+    padding-top:20px;
+    /* Directions are clockwise, starting at the top */
+    padding: 20px 30px 20px 30px;
+    /* Top/bottom and then left/right */
+    padding: 20px 30px;
 }
 p {
-    color: red;
+    color: white;
+    margin-bottom: 10px;
+}
+h1 {
+    color: pink;
+    font-family: Patrick;
+    margin-bottom: 20px;
+}
+a:link, a:visited {
+    color:rgb(255,250,205);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(184,134,11);
+}
+/* Add left margin to push the lists in */
+ul, ol {
+    margin-left:30px;
+    margin-bottom: 20px;
+}
+/* Classes are used to style individual tags. 
+They start with a period (.) */
+.caption {
+    color:rgb(190, 190, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
 }
