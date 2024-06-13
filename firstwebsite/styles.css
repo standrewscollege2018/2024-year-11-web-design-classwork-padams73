@@ -50,3 +50,32 @@ They start with a period (.) */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12pt;
 }
+.container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+}
+.main-content {
+    background-color: brown;
+    overflow: hidden;
+    margin:20px;
+    border-radius: 15px;
+    /* border */
+    border: 2px solid rgb(255,250,205);
+}
+.main-content p {
+    padding: 10px;
+}
+.secondary-content {
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 20px;
+}
+.secondary-content p {
+    color: black;
+}
+.main-content img {
+    /* This code resizes the image, keeping it in proportion
+    and no wider than 100% of the div tag it is within */
+    max-width: 100%;
+    height: auto;
+}
