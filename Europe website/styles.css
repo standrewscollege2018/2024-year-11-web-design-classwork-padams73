@@ -1,0 +1,40 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+@font-face {
+    font-family: Holiday;
+    src: url(fonts/Holiday.otf);
+}
+body {
+    background-color: rgb(12,34,56);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,255,255);
+    padding: 20px 30px;
+}
+h1 {
+    color:rgb(250, 255, 97);
+    margin-bottom: 15px;
+    font-size: 80pt;
+    font-family: Holiday;
+}
+p {
+    margin-bottom: 10px;
+}
+ul {
+    margin-left:30px;
+    margin-bottom: 10px;
+}
+h2 {
+    color:rgba(255, 198, 217);
+    margin-top: 15px;
+}
+a:link, a:visited {
+    margin-bottom: 10px;
+    color:rgb(250, 255, 97);
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(250, 255, 97);
+    text-decoration: underline;
+}
