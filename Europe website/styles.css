@@ -38,3 +38,26 @@ a:hover {
     color:rgb(250, 255, 97);
     text-decoration: underline;
 }
+.introduction {
+    margin: 0px 30px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+}
+.card {
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.card h2 {
+    padding: 0px 15px;
+}
+.card p {
+    padding: 15px;
+}
