@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testing forms</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body onload="setScore()">
+    <h1>Answer the questions!</h1>
+      <h2 id="score"></h2>
+      <button onclick="reset()">Reset quiz</button>
+      <p>What year is it?</p>
+      <input type="text" id="year">
+
+      <button onclick="checkAnswer('year')" id="yearButton" value="Check your answer">Submit</button>
+      
+      <!-- Question 2 -->
+      <p>What does the H in HTML stand for?</p>
+      <input type="text" id="html">
+
+      <button onclick="checkAnswer('html')" id="htmlButton" value="Check your answer">Submit</button>
+      
+
+      <p>Favourite subject?</p>
+      <input type="radio" name="subject" id="subject" value="maths">maths
+      <input type="radio" name="subject" id="subject" value="english">english
+      <button onclick="checkAnswer('subject')" id="subjectButton" value="Check your answer">Submit</button>
+
+
+
+
+
+  
+    </body>
+</html>
